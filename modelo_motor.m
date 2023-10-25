@@ -4,7 +4,7 @@
 %%
 function [K1,Tao1,Theta1] = modelo_motor(setpoint)
     figure Name 'muestra 1 metodo POR'
-    muestra=table2array(readtable("muestras_controladores/datos_motor_100_ms_1khz_robot_F_piso_2_PI_1P107_M0P48.xlsx","Range",'A:D', ...
+    muestra=table2array(readtable("muestras/datos_motor_100_ms_1khz_robot_F_piso_2.xlsx","Range",'A:D', ...
               'ReadVariableNames',false));
     % setpoint = 30;
     
